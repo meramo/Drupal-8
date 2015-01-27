@@ -2,20 +2,20 @@
 
 /**
  * @file
- * Contains \Drupal\demo\Controller\DemoController.
+ * Contains \Drupal\demo\Controller\SamplepageController.
  */
 
 namespace Drupal\demo\Controller;
 
 /**
- * DemoController.
+ * SamplepageController.
  */
-class DemoController {
+class SamplepageController {
 
   /**
    * Generates the demo page.
    */
-  public function demo() {
+  public function sample() {
     return array(
       '#markup' => '<p>' . t('Simple page: The quick brown fox jumps over the lazy dog.') . '</p>',
     );

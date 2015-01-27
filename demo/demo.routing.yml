@@ -1,7 +1,7 @@
-demo_demo:
-  path: '/demo'
+demo_sampleroute:
+  path: '/sample-page'
   defaults:
-    _controller: '\Drupal\demo\Controller\DemoController::demo'
-    _title: 'Demo'
+    _controller: '\Drupal\demo\Controller\SamplepageController::sample'
+    _title: 'Sample page'
   requirements:
     _permission: 'access content'
